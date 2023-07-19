@@ -1,0 +1,14 @@
+.brand-container {
+    background-color: var(--darck-color);
+    height: 100px;
+    margin-top: 0;
+}
+
+.brand {
+    color: var(--grey-color);
+    font-size: 50px;
+    padding: 25px;
+    text-align: center;
+    
+}
+

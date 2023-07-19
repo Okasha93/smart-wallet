@@ -1,0 +1,40 @@
+.container {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.balance-container {
+    text-align: center;
+    
+}
+
+.balance-container h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.balance-container h2 {
+    color: rgb(20, 0, 204);
+    margin-bottom: 10px;
+
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+input[type=number] {
+    font-size: 15px;
+}
+
+
+

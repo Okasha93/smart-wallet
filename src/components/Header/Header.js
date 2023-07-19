@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
+
+
 
 const Header = () => {
 
 
   return (
-    <div>
-        <h1>Smart Wallet</h1>
+    <div className='brand-container'>
+      <h1 className="brand">Smart Wallet</h1>
     </div>
   )
 }

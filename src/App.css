@@ -1,4 +1,26 @@
+:root {
+    --darck-color: #19283f;
+    --grey-color: #E6E6E6;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: linear-gradient(to right, #00AAFF, #00FF6C );
+    display: inline;
+    background-color: var(--grey-color);
+    min-height: 100%;
+    box-sizing: inherit;
     
+}
+
+@media (min-width:1700px) {
+	body {
+		max-width: 100%;
+		padding: 0 150px;
+	}
 }
