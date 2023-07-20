@@ -1,8 +1,22 @@
-.btn-prime {
+.btn {
+    background-color: rgb(217, 219, 220) !important;
+    color: var(--dark-color) !important;
+    position: relative; 
+    text-align: center;
+    width: 150px;
     margin: 10px;
     padding: 10px;
     height: 50px;
-    width: 150px;
-    font-size: 23px;
+    font-size: 25px !important; 
+    font-weight: 400;
+    border: 5px solid #15f4ee;   
+    cursor: pointer;
+    border-radius: 250px;
+    transition: 1.5s;
     
 }
+
+.btn:hover {
+    box-shadow: 0 5px 50px 0 ;
+}  
+
